@@ -1,0 +1,12 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <ul class = "list-group" >
+
+              <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="post in posts" type="item-text-wrap" >
+                <img ng-src="{{post.picture.picture}}">
+                <h2>{{post.postHeading}}</h2>
+                <p>{{post.postContent}}</p>
+                <i class="icon ion-chevron-right icon-accessory"></i>
+
+  </ion-content>
+</ion-view>
